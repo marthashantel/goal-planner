@@ -13,7 +13,8 @@ function App() {
   const [isDepositModalOpen, setIsDepositModalOpen] = useState(false);
   const [selectedGoalId, setSelectedGoalId] = useState(null);
   
-  const API_URL = 'http://localhost:3001/goals';
+  const API_URL = 'https://goal-planner-json-backend.onrender.com/goals';
+
 
   // Fetch all goals
   useEffect(() => {
